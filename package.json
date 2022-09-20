@@ -48,6 +48,6 @@
     "test": "cypress run --config pageLoadTimeout=10000",
     "open":"cypress open"
   },
-  "author": "Francis",
+  "author": "Francis sanjon",
   "license": "ISC"
 }
