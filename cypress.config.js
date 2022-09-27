@@ -28,6 +28,7 @@ module.exports = defineConfig({
   
 
   e2e: {
+    baseUrl:'https://opensource-demo.orangehrmlive.com/',
     specPattern: "**/*.feature",
     supportFile: false,
     setupNodeEvents,
