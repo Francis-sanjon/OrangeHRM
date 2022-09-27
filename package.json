@@ -23,30 +23,29 @@
     "nonGlobalStepDefinitions": false,
     "stepDefinitions": "cypress/e2e/**/*.{js,ts}",
     "json": {
-      
       "enabled": true,
       "outputFolder": "cypress/cucumber-json",
       "metadata": {
         "browser": {
-        "name": "chrome",
-        "version": "81"
+          "name": "chrome",
+          "version": "81"
         },
         "device": "Local test machine",
         "platform": {
-        "name": "Windows",
-        "version": "10"
+          "name": "Windows",
+          "version": "10"
         }
-        }
+      }
     }
   },
   "name": "orangehrm",
   "version": "1.0.0",
   "description": "testing",
   "main": "cucumber-html-reports.js",
-  
   "scripts": {
     "test": "cypress run --config pageLoadTimeout=10000",
-    "open":"cypress open"
+    "open": "cypress open",
+    "cucumber":"node cucumber-html-reports.js"
   },
   "author": "Francis sanjon",
   "license": "ISC"
