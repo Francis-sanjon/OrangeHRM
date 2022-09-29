@@ -18,6 +18,7 @@ async function setupNodeEvents(on, config) {
 }
 
 module.exports = defineConfig({
+  projectId: 'k9iys2',
   reporter: 'mochawesome',
   reporterOptions: {
     reportDir: 'mochawesome-report',

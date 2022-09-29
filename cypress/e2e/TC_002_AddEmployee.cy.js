@@ -17,7 +17,8 @@ Then('User enters First Name,Middle Name,Last Name ane EmployeeID', () => {
     ae.firstName().type('Francis')
     ae.middleName().type('s')
     ae.LastName().type('Sanjon')
-    ae.empID().type(12345)
+    ae.empID().clear()
+    ae.empID().type(555)
 })
 And('User clicks save Button',()=>{
     ae.saveBtn().click()
