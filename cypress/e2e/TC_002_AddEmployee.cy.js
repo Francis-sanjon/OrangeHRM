@@ -20,12 +20,12 @@ Then('User enters First Name,Middle Name,Last Name ane EmployeeID', () => {
     ae.empID().clear()
     ae.empID().type(555)
 })
-And('User clicks save Button',()=>{
+And('User clicks save Button', () => {
     ae.saveBtn().click()
     cy.get('.oxd-topbar-body-nav > ul > :nth-child(2)').click()
-    cy.get('.orangehrm-container').each(($el,index,$list)=>{
-const val=$list.val()
-cy.log(val)
+    cy.get('.orangehrm-container').each(($el, index, $list) => {
+        const val = $list.val()
+        cy.log(val)
 
     })
 })
