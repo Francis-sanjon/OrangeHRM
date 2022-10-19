@@ -44,7 +44,7 @@
   "description": "testing",
   "main": "cucumber-html-reports.js",
   "scripts": {
-    "test": "cypress run --config pageLoadTimeout=10000",
+    "test": "cypress run --config pageLoadTimeout=10000 && npx cypress run --browser chrome && npx cypress run --browser edge",
     "open": "cypress open",
     "cucumber": "node cucumber-html-reports.js",
     "cy:run": "cypress run",
