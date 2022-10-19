@@ -4,17 +4,17 @@
     "elements": [
       {
         "description": "",
-        "id": "add-employee;adding-new-employee-in-orangehrm-webpage",
+        "id": "search-employee;searching-employee-in-orangehrm-webpage",
         "keyword": "Scenario",
         "line": 3,
-        "name": "Adding new Employee in OrangeHRM webpage",
+        "name": "Searching Employee in OrangeHRM webpage",
         "steps": [
           {
             "keyword": "Given ",
             "line": 5,
             "name": "User is at the login page",
             "result": {
-              "duration": 7839000000,
+              "duration": 5452000000,
               "status": "passed"
             },
             "match": {
@@ -26,7 +26,7 @@
             "line": 6,
             "name": "User enters username and password",
             "result": {
-              "duration": 1346000000,
+              "duration": 1543000000,
               "status": "passed"
             },
             "match": {
@@ -38,7 +38,7 @@
             "line": 7,
             "name": "User clicks on login button",
             "result": {
-              "duration": 3866000000,
+              "duration": 2321000000,
               "status": "passed"
             },
             "match": {
@@ -50,7 +50,111 @@
             "line": 8,
             "name": "User is able to successfully login to the Website",
             "result": {
-              "duration": 42000000,
+              "duration": 143000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "User clicks EmployeeList option",
+            "result": {
+              "duration": 2778000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User verify the EmployeeList page",
+            "result": {
+              "duration": 107000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "User enters Employee Name,Employee ID",
+            "result": {
+              "duration": 3481000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-employee",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Search Employee",
+    "uri": "cypress\\e2e\\Features\\Emp_Search.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-employee;adding-new-employee-in-orangehrm-webpage",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Adding new Employee in OrangeHRM webpage",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is at the login page",
+            "result": {
+              "duration": 4157000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enters username and password",
+            "result": {
+              "duration": 1371000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on login button",
+            "result": {
+              "duration": 2093000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User is able to successfully login to the Website",
+            "result": {
+              "duration": 60000000,
               "status": "passed"
             },
             "match": {
@@ -62,7 +166,7 @@
             "line": 9,
             "name": "User clicks Add Employee open",
             "result": {
-              "duration": 1772000000,
+              "duration": 2585000000,
               "status": "passed"
             },
             "match": {
@@ -74,7 +178,7 @@
             "line": 10,
             "name": "User enters First Name,Middle Name,Last Name ane EmployeeID",
             "result": {
-              "duration": 2566000000,
+              "duration": 3580000000,
               "status": "passed"
             },
             "match": {
@@ -86,7 +190,7 @@
             "line": 11,
             "name": "User clicks save Button",
             "result": {
-              "duration": 1533000000,
+              "duration": 2489000000,
               "status": "passed"
             },
             "match": {
@@ -118,7 +222,7 @@
             "line": 5,
             "name": "User is at the login page",
             "result": {
-              "duration": 2172000000,
+              "duration": 5972000000,
               "status": "passed"
             },
             "match": {
@@ -130,7 +234,7 @@
             "line": 6,
             "name": "User enters username as 'Admin' and password as 'admin123'",
             "result": {
-              "duration": 977000000,
+              "duration": 1308000000,
               "status": "passed"
             },
             "match": {
@@ -142,7 +246,7 @@
             "line": 7,
             "name": "User clicks on login button",
             "result": {
-              "duration": 1866000000,
+              "duration": 2044000000,
               "status": "passed"
             },
             "match": {
@@ -154,7 +258,7 @@
             "line": 8,
             "name": "User is able to successfully login to the Website",
             "result": {
-              "duration": 43000000,
+              "duration": 36000000,
               "status": "passed"
             },
             "match": {
