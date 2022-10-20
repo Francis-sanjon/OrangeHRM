@@ -1,9 +1,11 @@
+
 const { defineConfig } = require("cypress");
 const createBundler = require("@bahmutov/cypress-esbuild-preprocessor");
 const preprocessor = require("@badeball/cypress-cucumber-preprocessor");
 const createEsbuildPlugin = require("@badeball/cypress-cucumber-preprocessor/esbuild");
 
 async function setupNodeEvents(on, config) {
+  
   await preprocessor.addCucumberPreprocessorPlugin(on, config);
 
   on(
@@ -26,12 +28,16 @@ module.exports = defineConfig({
     html: false,
     json: true,
   },
-  
+
 
   e2e: {
-    baseUrl:'https://opensource-demo.orangehrmlive.com/',
+    experimentalStudio:true,
+    chromeWebSecurity:false,
+    baseUrl: 'https://opensource-demo.orangehrmlive.com/',
     specPattern: "**/*.feature",
     supportFile: false,
     setupNodeEvents,
+
+
   },
 });

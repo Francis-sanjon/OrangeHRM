@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "cypress": "^10.7.0",
-    "cypress-parallel": "^0.9.1",
+    "cypress": "^10.10.0",
+    "cypress-parallel": "^0.1.8",
     "mochawesome-report-generator": "^6.2.0"
   },
   "devDependencies": {
@@ -9,6 +9,7 @@
     "@bahmutov/cypress-esbuild-preprocessor": "^2.1.3",
     "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
     "cypress-multi-reporters": "^1.6.1",
+    "cypress-real-events": "^1.7.2",
     "mocha-junit-reporter": "^2.0.2",
     "mochawesome": "^7.1.3",
     "mochawesome-merge": "^4.2.1",
@@ -47,8 +48,8 @@
     "test": "cypress run --config pageLoadTimeout=10000 && npx cypress run --browser chrome && npx cypress run --browser edge",
     "open": "cypress open",
     "cucumber": "node cucumber-html-reports.js",
-    "cy:run": "cypress run",
-    "cy:parallel": "cypress-parallel -s cy:run -t 2 -d .\\cypress\\e2e "
+    "cy:run": "cypress run --browser edge",
+    "cy:parallel": "cypress-parallel -s cy:run -t 4 -d .\\cypress\\e2e "
   },
   "author": "Francis sanjon",
   "license": "ISC"

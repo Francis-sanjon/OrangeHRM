@@ -4,7 +4,7 @@
   "passes": 1,
   "pending": 0,
   "failures": 0,
-  "start": "2022-10-19T06:10:55.764Z",
-  "duration": 16305,
+  "start": "2022-10-20T04:00:45.803Z",
+  "duration": 21160,
   "file": "cypress\\e2e\\Features\\Emp_Search.feature"
 }

@@ -4,7 +4,7 @@
   "passes": 1,
   "pending": 0,
   "failures": 0,
-  "start": "2022-10-19T06:10:55.765Z",
-  "duration": 16927,
+  "start": "2022-10-20T04:00:45.933Z",
+  "duration": 25237,
   "file": "cypress\\e2e\\Features\\AddEmployee.feature"
 }

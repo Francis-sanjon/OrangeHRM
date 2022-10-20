@@ -4,110 +4,6 @@
     "elements": [
       {
         "description": "",
-        "id": "search-employee;searching-employee-in-orangehrm-webpage",
-        "keyword": "Scenario",
-        "line": 3,
-        "name": "Searching Employee in OrangeHRM webpage",
-        "steps": [
-          {
-            "keyword": "Given ",
-            "line": 5,
-            "name": "User is at the login page",
-            "result": {
-              "duration": 5452000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "not available:0"
-            }
-          },
-          {
-            "keyword": "When ",
-            "line": 6,
-            "name": "User enters username and password",
-            "result": {
-              "duration": 1543000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "not available:0"
-            }
-          },
-          {
-            "keyword": "And ",
-            "line": 7,
-            "name": "User clicks on login button",
-            "result": {
-              "duration": 2321000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "not available:0"
-            }
-          },
-          {
-            "keyword": "Then ",
-            "line": 8,
-            "name": "User is able to successfully login to the Website",
-            "result": {
-              "duration": 143000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "not available:0"
-            }
-          },
-          {
-            "keyword": "And ",
-            "line": 9,
-            "name": "User clicks EmployeeList option",
-            "result": {
-              "duration": 2778000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "not available:0"
-            }
-          },
-          {
-            "keyword": "Then ",
-            "line": 10,
-            "name": "User verify the EmployeeList page",
-            "result": {
-              "duration": 107000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "not available:0"
-            }
-          },
-          {
-            "keyword": "And ",
-            "line": 11,
-            "name": "User enters Employee Name,Employee ID",
-            "result": {
-              "duration": 3481000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "not available:0"
-            }
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "search-employee",
-    "keyword": "Feature",
-    "line": 1,
-    "name": "Search Employee",
-    "uri": "cypress\\e2e\\Features\\Emp_Search.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
         "id": "add-employee;adding-new-employee-in-orangehrm-webpage",
         "keyword": "Scenario",
         "line": 3,
@@ -118,7 +14,7 @@
             "line": 5,
             "name": "User is at the login page",
             "result": {
-              "duration": 4157000000,
+              "duration": 3100000000,
               "status": "passed"
             },
             "match": {
@@ -130,7 +26,7 @@
             "line": 6,
             "name": "User enters username and password",
             "result": {
-              "duration": 1371000000,
+              "duration": 1375000000,
               "status": "passed"
             },
             "match": {
@@ -142,7 +38,7 @@
             "line": 7,
             "name": "User clicks on login button",
             "result": {
-              "duration": 2093000000,
+              "duration": 2388000000,
               "status": "passed"
             },
             "match": {
@@ -154,7 +50,7 @@
             "line": 8,
             "name": "User is able to successfully login to the Website",
             "result": {
-              "duration": 60000000,
+              "duration": 48000000,
               "status": "passed"
             },
             "match": {
@@ -166,7 +62,7 @@
             "line": 9,
             "name": "User clicks Add Employee open",
             "result": {
-              "duration": 2585000000,
+              "duration": 1646000000,
               "status": "passed"
             },
             "match": {
@@ -178,7 +74,7 @@
             "line": 10,
             "name": "User enters First Name,Middle Name,Last Name ane EmployeeID",
             "result": {
-              "duration": 3580000000,
+              "duration": 2965000000,
               "status": "passed"
             },
             "match": {
@@ -190,7 +86,7 @@
             "line": 11,
             "name": "User clicks save Button",
             "result": {
-              "duration": 2489000000,
+              "duration": 1751000000,
               "status": "passed"
             },
             "match": {
@@ -212,17 +108,17 @@
     "elements": [
       {
         "description": "",
-        "id": "login;login-to-orange-hrm-website;;2",
-        "keyword": "Scenario Outline",
-        "line": 11,
-        "name": "Login to Orange HRM Website",
+        "id": "search-employee;searching-employee-in-orangehrm-webpage",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Searching Employee in OrangeHRM webpage",
         "steps": [
           {
             "keyword": "Given ",
             "line": 5,
             "name": "User is at the login page",
             "result": {
-              "duration": 5972000000,
+              "duration": 2025000000,
               "status": "passed"
             },
             "match": {
@@ -232,9 +128,9 @@
           {
             "keyword": "When ",
             "line": 6,
-            "name": "User enters username as 'Admin' and password as 'admin123'",
+            "name": "User enters username and password",
             "result": {
-              "duration": 1308000000,
+              "duration": 936000000,
               "status": "passed"
             },
             "match": {
@@ -246,7 +142,7 @@
             "line": 7,
             "name": "User clicks on login button",
             "result": {
-              "duration": 2044000000,
+              "duration": 1877000000,
               "status": "passed"
             },
             "match": {
@@ -258,7 +154,111 @@
             "line": 8,
             "name": "User is able to successfully login to the Website",
             "result": {
-              "duration": 36000000,
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "User clicks EmployeeList option",
+            "result": {
+              "duration": 1742000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User verify the EmployeeList page",
+            "result": {
+              "duration": 57000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "User enters Employee Name,Employee ID",
+            "result": {
+              "duration": 1849000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-employee",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Search Employee",
+    "uri": "cypress\\e2e\\Features\\Emp_Search.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;login-to-orange-hrm-website;;2",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Login to Orange HRM Website",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is at the login page",
+            "result": {
+              "duration": 2069000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enters username as 'Admin' and password as 'admin123'",
+            "result": {
+              "duration": 917000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on login button",
+            "result": {
+              "duration": 1942000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User is able to successfully login to the Website",
+            "result": {
+              "duration": 57000000,
               "status": "passed"
             },
             "match": {

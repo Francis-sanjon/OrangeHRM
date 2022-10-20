@@ -4,7 +4,7 @@
   "passes": 1,
   "pending": 0,
   "failures": 0,
-  "start": "2022-10-19T06:11:27.018Z",
-  "duration": 9544,
+  "start": "2022-10-20T04:01:26.836Z",
+  "duration": 12158,
   "file": "cypress\\e2e\\Features\\Login.feature"
 }
