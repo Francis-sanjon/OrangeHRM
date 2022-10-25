@@ -1,4 +1,4 @@
-Feature: Add Employee
+Feature: TC_002_AddEmployee
 
     Scenario: Adding new Employee in OrangeHRM webpage
 

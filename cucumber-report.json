@@ -4,7 +4,7 @@
     "elements": [
       {
         "description": "",
-        "id": "login;login-to-orange-hrm-website;;2",
+        "id": "tc_001_login;login-to-orange-hrm-website;;2",
         "keyword": "Scenario Outline",
         "line": 11,
         "name": "Login to Orange HRM Website",
@@ -14,7 +14,7 @@
             "line": 5,
             "name": "User is at the login page",
             "result": {
-              "duration": 6767000000,
+              "duration": 3209000000,
               "status": "passed"
             },
             "match": {
@@ -26,7 +26,7 @@
             "line": 6,
             "name": "User enters username as 'Admin' and password as 'admin123'",
             "result": {
-              "duration": 1492000000,
+              "duration": 872000000,
               "status": "passed"
             },
             "match": {
@@ -38,7 +38,7 @@
             "line": 7,
             "name": "User clicks on login button",
             "result": {
-              "duration": 2232000000,
+              "duration": 1913000000,
               "status": "passed"
             },
             "match": {
@@ -50,7 +50,7 @@
             "line": 8,
             "name": "User is able to successfully login to the Website",
             "result": {
-              "duration": 84000000,
+              "duration": 44000000,
               "status": "passed"
             },
             "match": {
@@ -61,10 +61,10 @@
         "type": "scenario"
       }
     ],
-    "id": "login",
+    "id": "tc_001_login",
     "keyword": "Feature",
     "line": 1,
-    "name": "Login",
+    "name": "TC_001_Login",
     "uri": "cypress\\e2e\\Features\\TC_001_Login.feature"
   },
   {
@@ -72,7 +72,7 @@
     "elements": [
       {
         "description": "",
-        "id": "add-employee;adding-new-employee-in-orangehrm-webpage",
+        "id": "tc_002_addemployee;adding-new-employee-in-orangehrm-webpage",
         "keyword": "Scenario",
         "line": 3,
         "name": "Adding new Employee in OrangeHRM webpage",
@@ -82,7 +82,7 @@
             "line": 5,
             "name": "User is at the login page",
             "result": {
-              "duration": 5335000000,
+              "duration": 1948000000,
               "status": "passed"
             },
             "match": {
@@ -94,7 +94,7 @@
             "line": 6,
             "name": "User enters username and password",
             "result": {
-              "duration": 1331000000,
+              "duration": 866000000,
               "status": "passed"
             },
             "match": {
@@ -106,7 +106,7 @@
             "line": 7,
             "name": "User clicks on login button",
             "result": {
-              "duration": 2178000000,
+              "duration": 1923000000,
               "status": "passed"
             },
             "match": {
@@ -118,7 +118,7 @@
             "line": 8,
             "name": "User is able to successfully login to the Website",
             "result": {
-              "duration": 80000000,
+              "duration": 40000000,
               "status": "passed"
             },
             "match": {
@@ -130,7 +130,7 @@
             "line": 9,
             "name": "User clicks Add Employee open",
             "result": {
-              "duration": 2381000000,
+              "duration": 1725000000,
               "status": "passed"
             },
             "match": {
@@ -142,7 +142,7 @@
             "line": 10,
             "name": "User enters First Name,Middle Name,Last Name ane EmployeeID",
             "result": {
-              "duration": 3159000000,
+              "duration": 2647000000,
               "status": "passed"
             },
             "match": {
@@ -154,7 +154,7 @@
             "line": 11,
             "name": "User clicks save Button",
             "result": {
-              "duration": 2074000000,
+              "duration": 1397000000,
               "status": "passed"
             },
             "match": {
@@ -165,10 +165,10 @@
         "type": "scenario"
       }
     ],
-    "id": "add-employee",
+    "id": "tc_002_addemployee",
     "keyword": "Feature",
     "line": 1,
-    "name": "Add Employee",
+    "name": "TC_002_AddEmployee",
     "uri": "cypress\\e2e\\Features\\TC_002_AddEmployee.feature"
   },
   {
@@ -176,7 +176,7 @@
     "elements": [
       {
         "description": "",
-        "id": "search-employee;searching-employee-in-orangehrm-webpage",
+        "id": "tc_003_emp_search;searching-employee-in-orangehrm-webpage",
         "keyword": "Scenario",
         "line": 3,
         "name": "Searching Employee in OrangeHRM webpage",
@@ -186,7 +186,7 @@
             "line": 5,
             "name": "User is at the login page",
             "result": {
-              "duration": 5463000000,
+              "duration": 1998000000,
               "status": "passed"
             },
             "match": {
@@ -198,7 +198,7 @@
             "line": 6,
             "name": "User enters username and password",
             "result": {
-              "duration": 1333000000,
+              "duration": 854000000,
               "status": "passed"
             },
             "match": {
@@ -210,7 +210,7 @@
             "line": 7,
             "name": "User clicks on login button",
             "result": {
-              "duration": 2317000000,
+              "duration": 1953000000,
               "status": "passed"
             },
             "match": {
@@ -222,7 +222,7 @@
             "line": 8,
             "name": "User is able to successfully login to the Website",
             "result": {
-              "duration": 67000000,
+              "duration": 94000000,
               "status": "passed"
             },
             "match": {
@@ -234,7 +234,7 @@
             "line": 9,
             "name": "User clicks EmployeeList option",
             "result": {
-              "duration": 3152000000,
+              "duration": 2057000000,
               "status": "passed"
             },
             "match": {
@@ -246,7 +246,7 @@
             "line": 10,
             "name": "User verify the EmployeeList page",
             "result": {
-              "duration": 117000000,
+              "duration": 57000000,
               "status": "passed"
             },
             "match": {
@@ -258,7 +258,7 @@
             "line": 11,
             "name": "User enters Employee Name,Employee ID",
             "result": {
-              "duration": 3029000000,
+              "duration": 2483000000,
               "status": "passed"
             },
             "match": {
@@ -269,10 +269,10 @@
         "type": "scenario"
       }
     ],
-    "id": "search-employee",
+    "id": "tc_003_emp_search",
     "keyword": "Feature",
     "line": 1,
-    "name": "Search Employee",
+    "name": "TC_003_Emp_Search",
     "uri": "cypress\\e2e\\Features\\TC_003_Emp_Search.feature"
   },
   {
@@ -280,7 +280,7 @@
     "elements": [
       {
         "description": "",
-        "id": "user-management;adding-user-in-orangehrm-webpage",
+        "id": "tc_004_usermanagement;adding-user-in-orangehrm-webpage",
         "keyword": "Scenario",
         "line": 3,
         "name": "adding user in OrangeHRM webpage",
@@ -290,7 +290,7 @@
             "line": 5,
             "name": "User is at the login page",
             "result": {
-              "duration": 9170000000,
+              "duration": 1940000000,
               "status": "passed"
             },
             "match": {
@@ -302,7 +302,7 @@
             "line": 6,
             "name": "User enters username and password",
             "result": {
-              "duration": 1809000000,
+              "duration": 840000000,
               "status": "passed"
             },
             "match": {
@@ -314,7 +314,7 @@
             "line": 7,
             "name": "User clicks on login button",
             "result": {
-              "duration": 4421000000,
+              "duration": 1900000000,
               "status": "passed"
             },
             "match": {
@@ -326,7 +326,7 @@
             "line": 8,
             "name": "User is able to successfully login to the Website",
             "result": {
-              "duration": 54000000,
+              "duration": 39000000,
               "status": "passed"
             },
             "match": {
@@ -338,7 +338,7 @@
             "line": 9,
             "name": "User clicks Admin option",
             "result": {
-              "duration": 4502000000,
+              "duration": 1885000000,
               "status": "passed"
             },
             "match": {
@@ -350,7 +350,7 @@
             "line": 10,
             "name": "User clicks User Management option",
             "result": {
-              "duration": 925000000,
+              "duration": 809000000,
               "status": "passed"
             },
             "match": {
@@ -362,7 +362,7 @@
             "line": 11,
             "name": "User clicks user option",
             "result": {
-              "duration": 839000000,
+              "duration": 791000000,
               "status": "passed"
             },
             "match": {
@@ -374,7 +374,7 @@
             "line": 12,
             "name": "User clicks +Add option",
             "result": {
-              "duration": 1812000000,
+              "duration": 1500000000,
               "status": "passed"
             },
             "match": {
@@ -386,7 +386,7 @@
             "line": 13,
             "name": "User verifies the user Add page",
             "result": {
-              "duration": 95000000,
+              "duration": 49000000,
               "status": "passed"
             },
             "match": {
@@ -398,7 +398,7 @@
             "line": 14,
             "name": "User enters User Role,Employee name,Status,Username,password,confirm password",
             "result": {
-              "duration": 3621000000,
+              "duration": 2910000000,
               "status": "passed"
             },
             "match": {
@@ -409,10 +409,10 @@
         "type": "scenario"
       }
     ],
-    "id": "user-management",
+    "id": "tc_004_usermanagement",
     "keyword": "Feature",
     "line": 1,
-    "name": "User Management",
+    "name": "TC_004_UserManagement",
     "uri": "cypress\\e2e\\Features\\TC_004_UserManagement.feature"
   },
   {
@@ -420,7 +420,7 @@
     "elements": [
       {
         "description": "",
-        "id": "job;adding-job-titles-in-orangehrm-webpage",
+        "id": "tc_005_addjobtitles;adding-job-titles-in-orangehrm-webpage",
         "keyword": "Scenario",
         "line": 3,
         "name": "adding Job Titles in OrangeHRM webpage",
@@ -430,7 +430,7 @@
             "line": 5,
             "name": "User is at the login page",
             "result": {
-              "duration": 6651000000,
+              "duration": 1907000000,
               "status": "passed"
             },
             "match": {
@@ -442,7 +442,7 @@
             "line": 6,
             "name": "User enters username and password",
             "result": {
-              "duration": 1805000000,
+              "duration": 848000000,
               "status": "passed"
             },
             "match": {
@@ -454,7 +454,7 @@
             "line": 7,
             "name": "User clicks on login button",
             "result": {
-              "duration": 4138000000,
+              "duration": 1862000000,
               "status": "passed"
             },
             "match": {
@@ -466,7 +466,7 @@
             "line": 8,
             "name": "User is able to successfully login to the Website",
             "result": {
-              "duration": 65000000,
+              "duration": 56000000,
               "status": "passed"
             },
             "match": {
@@ -478,7 +478,7 @@
             "line": 9,
             "name": "User clicks Admin option",
             "result": {
-              "duration": 2411000000,
+              "duration": 1980000000,
               "status": "passed"
             },
             "match": {
@@ -490,7 +490,7 @@
             "line": 10,
             "name": "User clicks job option",
             "result": {
-              "duration": 1817000000,
+              "duration": 1617000000,
               "status": "passed"
             },
             "match": {
@@ -502,7 +502,7 @@
             "line": 11,
             "name": "User clicks +Add button",
             "result": {
-              "duration": 4047000000,
+              "duration": 1363000000,
               "status": "passed"
             },
             "match": {
@@ -514,7 +514,7 @@
             "line": 12,
             "name": "User enters Job Title, Job Description, Note",
             "result": {
-              "duration": 3586000000,
+              "duration": 3058000000,
               "status": "passed"
             },
             "match": {
@@ -526,7 +526,7 @@
             "line": 13,
             "name": "User clicks Save button",
             "result": {
-              "duration": 246000000,
+              "duration": 198000000,
               "status": "passed"
             },
             "match": {
@@ -537,10 +537,326 @@
         "type": "scenario"
       }
     ],
-    "id": "job",
+    "id": "tc_005_addjobtitles",
     "keyword": "Feature",
     "line": 1,
-    "name": "job",
+    "name": "TC_005_AddJobTitles",
     "uri": "cypress\\e2e\\Features\\TC_005_AddJobTitles.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "tc_006_paygrades;adding-pay-grades-in-orangehrm-webpage",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "adding Pay Grades in OrangeHRM webpage",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is at the login page",
+            "result": {
+              "duration": 2815000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enters username and password",
+            "result": {
+              "duration": 935000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on login button",
+            "result": {
+              "duration": 1840000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User is able to successfully login to the Website",
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "User clicks Admin option",
+            "result": {
+              "duration": 1983000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 10,
+            "name": "User clicks job1 option",
+            "result": {
+              "duration": 871000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "User clicks Pay Greade option",
+            "result": {
+              "duration": 917000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 12,
+            "name": "User clicks +Add button from Pay Greade",
+            "result": {
+              "duration": 1286000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 13,
+            "name": "User enters the Grade",
+            "result": {
+              "duration": 1400000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 14,
+            "name": "User clicks on save button",
+            "result": {
+              "duration": 164000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "tc_006_paygrades",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "TC_006_PayGrades",
+    "uri": "cypress\\e2e\\Features\\TC_006_PayGrades.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "tc_007_workingshift;adding-pay-grades-in-orangehrm-webpage",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "adding Pay Grades in OrangeHRM webpage",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is at the login page",
+            "result": {
+              "duration": 2004000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enters username and password",
+            "result": {
+              "duration": 1068000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on login button",
+            "result": {
+              "duration": 2360000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User is able to successfully login to the Website",
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "User clicks Admin option",
+            "result": {
+              "duration": 2610000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 10,
+            "name": "User clicks job1 option",
+            "result": {
+              "duration": 1052000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "User clicks Work Shifts option",
+            "result": {
+              "duration": 1318000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 12,
+            "name": "User clicks checkbox to clear the previous shift timing",
+            "result": {
+              "duration": 1371000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 13,
+            "name": "User clicks delete button",
+            "result": {
+              "duration": 272000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 14,
+            "name": "User clicks confirm delete button",
+            "result": {
+              "duration": 293000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 15,
+            "name": "User clicks add button",
+            "result": {
+              "duration": 889000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 16,
+            "name": "User clicks Shift Name, Assigned Employee",
+            "result": {
+              "duration": 3512000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 17,
+            "name": "User clicks Save in work shift button",
+            "result": {
+              "duration": 528000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "tc_007_workingshift",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "TC_007_WorkingShift",
+    "uri": "cypress\\e2e\\Features\\TC_007_WorkingShift.feature"
   }
 ]

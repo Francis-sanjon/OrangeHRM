@@ -1,4 +1,4 @@
-Feature: Search Employee
+Feature: TC_003_Emp_Search
 
     Scenario: Searching Employee in OrangeHRM webpage
 

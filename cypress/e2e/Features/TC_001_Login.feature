@@ -1,4 +1,4 @@
-Feature: Login
+Feature: TC_001_Login
 
     Scenario Outline: Login to Orange HRM Website
 

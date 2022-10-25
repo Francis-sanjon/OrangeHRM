@@ -1,4 +1,4 @@
-Feature: job
+Feature: TC_005_AddJobTitles
 
     Scenario: adding Job Titles in OrangeHRM webpage
 

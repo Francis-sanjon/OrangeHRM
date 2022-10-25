@@ -2,14 +2,14 @@
   "stats": {
     "suites": 1,
     "tests": 1,
-    "passes": 0,
+    "passes": 1,
     "pending": 0,
-    "failures": 1,
-    "start": "2022-10-19T06:48:23.761Z",
-    "end": "2022-10-19T06:48:41.769Z",
-    "duration": 18008,
+    "failures": 0,
+    "start": "2022-10-25T03:45:30.645Z",
+    "end": "2022-10-25T03:45:46.040Z",
+    "duration": 15395,
     "testsRegistered": 1,
-    "passPercent": 0,
+    "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,53 +18,49 @@
   },
   "results": [
     {
-      "uuid": "d9978ffa-eccc-4cbc-ab00-1db6cdad0ee6",
+      "uuid": "54300b7b-6592-433e-8bad-358d2f2fdc8b",
       "title": "",
-      "fullFile": "cypress\\e2e\\Features\\AddEmployee.feature",
-      "file": "cypress\\e2e\\Features\\AddEmployee.feature",
+      "fullFile": "cypress\\e2e\\Features\\TC_007_WorkingShift.feature",
+      "file": "cypress\\e2e\\Features\\TC_007_WorkingShift.feature",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "ca81dadd-53e3-46a3-8ceb-b34753a25d17",
-          "title": "Add Employee",
+          "uuid": "07021e6b-9d7c-4ccd-a60f-7579bcf4d5b7",
+          "title": "TC_007_WorkingShift",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "Adding new Employee in OrangeHRM webpage",
-              "fullTitle": "Add Employee Adding new Employee in OrangeHRM webpage",
+              "title": "adding Pay Grades in OrangeHRM webpage",
+              "fullTitle": "TC_007_WorkingShift adding Pay Grades in OrangeHRM webpage",
               "timedOut": null,
-              "duration": 10517,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 15180,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "var _a2, _b, _c, _d, _e;\nconst { remainingSteps, testCaseStartedId } = retrieveInternalSpecProperties();\n(0, registry_1.assignRegistry)(registry2);\nmessages.stack.push({\n  testCaseStarted: {\n    id: testCaseStartedId,\n    testCaseId,\n    attempt: attempt++,\n    timestamp: (0, messages_helpers_1.createTimestamp)()\n  }\n});\nwindow.testState = {\n  gherkinDocument,\n  pickles,\n  pickle\n};\nfor (const step of steps) {\n  if (step.hook) {\n    delete window.testState.pickleStep;\n    const hook = step.hook;\n    cy.then(() => {\n      Cypress.log({\n        name: \"step\",\n        displayName: hook.keyword,\n        message: \"\"\n      });\n      const start = (0, messages_helpers_1.createTimestamp)();\n      messages.stack.push({\n        testStepStarted: {\n          testStepId: hook.id,\n          testCaseStartedId,\n          timestamp: start\n        }\n      });\n      if (messages.enabled) {\n        cy.task(constants_1.TASK_TEST_STEP_STARTED, hook.id, { log: false });\n      }\n      return cy.wrap(start, { log: false });\n    }).then((start) => {\n      registry2.runHook(this, hook);\n      return cy.wrap(start, { log: false });\n    }).then((start) => {\n      const end = (0, messages_helpers_1.createTimestamp)();\n      messages.stack.push({\n        testStepFinished: {\n          testStepId: hook.id,\n          testCaseStartedId,\n          testStepResult: {\n            status: Status.Passed,\n            duration: (0, messages_helpers_1.duration)(start, end)\n          },\n          timestamp: end\n        }\n      });\n      remainingSteps.shift();\n    });\n  } else if (step.pickleStep) {\n    window.testState.pickleStep = step.pickleStep;\n    const pickleStep = step.pickleStep;\n    const text = (0, assertions_1.assertAndReturn)(pickleStep.text, \"Expected pickle step to have a text\");\n    const scenarioStep = (0, assertions_1.assertAndReturn)(astIdMap.get((0, assertions_1.assertAndReturn)((_a2 = pickleStep.astNodeIds) === null || _a2 === void 0 ? void 0 : _a2[0], \"Expected to find at least one astNodeId\")), `Expected to find scenario step associated with id = ${(_b = pickleStep.astNodeIds) === null || _b === void 0 ? void 0 : _b[0]}`);\n    cy.then(() => {\n      Cypress.log({\n        name: \"step\",\n        displayName: (0, assertions_1.assertAndReturn)(\"keyword\" in scenarioStep && scenarioStep.keyword, \"Expected to find a keyword in the scenario step\"),\n        message: text\n      });\n    });\n    const argument = ((_c = pickleStep.argument) === null || _c === void 0 ? void 0 : _c.dataTable) ? new data_table_1.default(pickleStep.argument.dataTable) : ((_e = (_d = pickleStep.argument) === null || _d === void 0 ? void 0 : _d.docString) === null || _e === void 0 ? void 0 : _e.content) ? pickleStep.argument.docString.content : void 0;\n    cy.then(() => {\n      internalProperties.currentStep = { pickleStep };\n      const start = (0, messages_helpers_1.createTimestamp)();\n      messages.stack.push({\n        testStepStarted: {\n          testStepId: pickleStep.id,\n          testCaseStartedId,\n          timestamp: start\n        }\n      });\n      if (messages.enabled) {\n        cy.task(constants_1.TASK_TEST_STEP_STARTED, pickleStep.id, { log: false });\n      }\n      return cy.wrap(start, { log: false });\n    }).then((start) => {\n      const ensureChain = (value) => Cypress.isCy(value) ? value : cy.wrap(value, { log: false });\n      try {\n        return ensureChain(registry2.runStepDefininition(this, text, argument)).then((result) => {\n          return {\n            start,\n            result\n          };\n        });\n      } catch (e) {\n        if (e instanceof registry_1.MissingDefinitionError) {\n          throw new Error(createMissingStepDefinitionMessage(context, text));\n        } else {\n          throw e;\n        }\n      }\n    }).then(({ start, result }) => {\n      var _a3, _b2, _c2;\n      const end = (0, messages_helpers_1.createTimestamp)();\n      if (result === \"pending\") {\n        messages.stack.push({\n          testStepFinished: {\n            testStepId: pickleStep.id,\n            testCaseStartedId,\n            testStepResult: {\n              status: Status.Pending,\n              duration: (0, messages_helpers_1.duration)(start, end)\n            },\n            timestamp: end\n          }\n        });\n        remainingSteps.shift();\n        for (const skippedStep of remainingSteps) {\n          const testStepId = (0, assertions_1.assertAndReturn)((_b2 = (_a3 = skippedStep.hook) === null || _a3 === void 0 ? void 0 : _a3.id) !== null && _b2 !== void 0 ? _b2 : (_c2 = skippedStep.pickleStep) === null || _c2 === void 0 ? void 0 : _c2.id, \"Expected a step to either be a hook or a pickleStep\");\n          messages.stack.push({\n            testStepStarted: {\n              testStepId,\n              testCaseStartedId,\n              timestamp: (0, messages_helpers_1.createTimestamp)()\n            }\n          });\n          messages.stack.push({\n            testStepFinished: {\n              testStepId,\n              testCaseStartedId,\n              testStepResult: {\n                status: Status.Skipped,\n                duration: {\n                  seconds: 0,\n                  nanos: 0\n                }\n              },\n              timestamp: (0, messages_helpers_1.createTimestamp)()\n            }\n          });\n        }\n        for (let i = 0, count = remainingSteps.length; i < count; i++) {\n          remainingSteps.pop();\n        }\n        this.skip();\n      } else {\n        messages.stack.push({\n          testStepFinished: {\n            testStepId: pickleStep.id,\n            testCaseStartedId,\n            testStepResult: {\n              status: Status.Passed,\n              duration: (0, messages_helpers_1.duration)(start, end)\n            },\n            timestamp: end\n          }\n        });\n        remainingSteps.shift();\n      }\n    });\n  }\n}",
-              "err": {
-                "message": "CypressError: Timed out after waiting `10000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `10000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `Users\\Public\\GitHub\\Test\\OrangeHRM\\cypress.config.js` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.",
-                "estack": "CypressError: Timed out after waiting `10000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `10000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `Users\\Public\\GitHub\\Test\\OrangeHRM\\cypress.config.js` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n    at timedOutWaitingForPageLoad (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:140929:74)\n    at https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:142150:16\n    at tryCatcher (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11318:23)\n    at https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:6440:41\n    at tryCatcher (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11318:23)\n    at Promise._settlePromiseFromHandler (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:9253:31)\n    at Promise._settlePromise (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:9310:18)\n    at Promise._settlePromise0 (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:9355:10)\n    at Promise._settlePromises (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:9431:18)\n    at _drainQueueStep (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:6025:12)\n    at _drainQueue (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:6018:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:6034:5)\n    at Async.drainQueues (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:5904:14)\nFrom Your Spec Code:\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\e2e\\Features\\AddEmployee.feature:9727:12)\n    at Registry.runStepDefininition (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\e2e\\Features\\AddEmployee.feature:8331:48)\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\e2e\\Features\\AddEmployee.feature:9131:48)",
-                "diff": null
-              },
-              "uuid": "66969bd7-eb84-48b0-b391-057fee7e79c3",
-              "parentUUID": "ca81dadd-53e3-46a3-8ceb-b34753a25d17",
+              "err": {},
+              "uuid": "63d7301b-feaf-49ff-9d65-7d2079878910",
+              "parentUUID": "07021e6b-9d7c-4ccd-a60f-7579bcf4d5b7",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "66969bd7-eb84-48b0-b391-057fee7e79c3"
+          "passes": [
+            "63d7301b-feaf-49ff-9d65-7d2079878910"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 10517,
+          "duration": 15180,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

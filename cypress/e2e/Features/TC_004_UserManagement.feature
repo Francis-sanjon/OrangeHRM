@@ -1,4 +1,4 @@
-Feature: User Management
+Feature: TC_004_UserManagement
 
     Scenario: adding user in OrangeHRM webpage
 

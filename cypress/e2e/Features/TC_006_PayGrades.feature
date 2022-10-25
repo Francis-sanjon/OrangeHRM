@@ -1,4 +1,4 @@
-Feature: Pay Grades
+Feature: TC_006_PayGrades
 
     Scenario: adding Pay Grades in OrangeHRM webpage
 
@@ -12,4 +12,3 @@ Feature: Pay Grades
         And User clicks +Add button from Pay Greade
         When User enters the Grade
         And User clicks on save button
-        
