@@ -20,28 +20,34 @@ yesDelete(){
     return cy.get('[class="oxd-button oxd-button--medium oxd-button--label-danger orangehrm-button-margin"]')
 }
 name(){
-    return cy.get('[class="oxd-input oxd-input--active"]').eq(1)
+    return cy.get('[class="oxd-input oxd-input--active"]').eq(1) //correct
 }
 State(){
-    return cy.get('[class="oxd-input oxd-input--active"]').eq(2)
-}/*
-state(){
-    return cy.get('[class="oxd-input oxd-input--active"]').eq(4)
-}*/
+    return cy.get('[class="oxd-input oxd-input--active"]').eq(2) //correct
+}
+city(){
+    return cy.get('[class="oxd-input oxd-input--active"]').eq(6) 
+}
 zip(){
-    return cy.get('[class="oxd-input oxd-input--active"]').eq(3)
+    return cy.get('[class="oxd-input oxd-input--active"]').eq(3) //correct
 }
 phone(){
-    return cy.get('[class="oxd-input oxd-input--active"]').eq(5)
+    return cy.get('[class="oxd-input oxd-input--active"]').eq(4) //correct
+}
+fax(){
+    return cy.get('[class="oxd-input oxd-input--active"]').eq(5) //correct
+}
+country(){
+    return cy.get('[class="oxd-select-text oxd-select-text--active"]')//correct
 }
 address(){
     return cy.get('[class="oxd-textarea oxd-textarea--active oxd-textarea--resize-vertical"]').eq(0)
 }
 notes(){
-    return cy.get('[class="oxd-textarea oxd-textarea--active oxd-textarea--resize-vertical"]').eq(1)
+    return cy.get(':nth-child(8) > .oxd-input-group > :nth-child(2) > .oxd-textarea')
 }
 save(){
-    return cy.get('[type="submit"]')
+    return cy.get('.orangehrm-left-space')
 }
 
 

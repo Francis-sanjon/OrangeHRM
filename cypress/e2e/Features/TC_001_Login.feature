@@ -9,3 +9,32 @@ Feature: TC_001_Login
         Examples:
             | username | password |
             | Admin    | admin123 |
+
+    Scenario Outline: Login to Orange HRM Website with invalid name and valid password
+
+        Given User is at the login page
+        When User enters username as '<username>' and password as '<password>'
+        And User clicks on login button
+        Then User unable to login to the Website
+        Examples:
+            | username | password |
+            | Adminn   | admin123 |
+              Scenario Outline: Login to Orange HRM Website with valid name and invalid password
+
+        Given User is at the login page
+        When User enters username as '<username>' and password as '<password>'
+        And User clicks on login button
+        Then User unable to login to the Website
+        Examples:
+            | username | password |
+            | Adminn   | admin123 |
+
+              Scenario Outline: Login to Orange HRM Website with invalid name and invalid password
+
+        Given User is at the login page
+        When User enters username as '<username>' and password as '<password>'
+        And User clicks on login button
+        Then User unable to login to the Website
+        Examples:
+            | username | password |
+            | Adminn   | admin1233 |

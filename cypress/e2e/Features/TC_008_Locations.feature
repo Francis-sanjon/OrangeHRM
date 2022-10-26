@@ -14,4 +14,4 @@ Feature: TC_008_Adding Location
         And User clicks Yes delete button
         And User clicks Add butting in Location
         When User enters Name, City,Zip Code,Phone,Address,State,Country,Fax, Notes
-         And User clicks save button iN Location
+        And User clicks save button iN Location

@@ -14,7 +14,7 @@
             "line": 5,
             "name": "User is at the login page",
             "result": {
-              "duration": 3209000000,
+              "duration": 3443000000,
               "status": "passed"
             },
             "match": {
@@ -26,7 +26,7 @@
             "line": 6,
             "name": "User enters username as 'Admin' and password as 'admin123'",
             "result": {
-              "duration": 872000000,
+              "duration": 1119000000,
               "status": "passed"
             },
             "match": {
@@ -38,7 +38,7 @@
             "line": 7,
             "name": "User clicks on login button",
             "result": {
-              "duration": 1913000000,
+              "duration": 2131000000,
               "status": "passed"
             },
             "match": {
@@ -50,7 +50,7 @@
             "line": 8,
             "name": "User is able to successfully login to the Website",
             "result": {
-              "duration": 44000000,
+              "duration": 70000000,
               "status": "passed"
             },
             "match": {
@@ -82,7 +82,7 @@
             "line": 5,
             "name": "User is at the login page",
             "result": {
-              "duration": 1948000000,
+              "duration": 2323000000,
               "status": "passed"
             },
             "match": {
@@ -94,7 +94,7 @@
             "line": 6,
             "name": "User enters username and password",
             "result": {
-              "duration": 866000000,
+              "duration": 1088000000,
               "status": "passed"
             },
             "match": {
@@ -106,7 +106,7 @@
             "line": 7,
             "name": "User clicks on login button",
             "result": {
-              "duration": 1923000000,
+              "duration": 2146000000,
               "status": "passed"
             },
             "match": {
@@ -118,7 +118,7 @@
             "line": 8,
             "name": "User is able to successfully login to the Website",
             "result": {
-              "duration": 40000000,
+              "duration": 77000000,
               "status": "passed"
             },
             "match": {
@@ -130,7 +130,7 @@
             "line": 9,
             "name": "User clicks Add Employee open",
             "result": {
-              "duration": 1725000000,
+              "duration": 2068000000,
               "status": "passed"
             },
             "match": {
@@ -142,7 +142,7 @@
             "line": 10,
             "name": "User enters First Name,Middle Name,Last Name ane EmployeeID",
             "result": {
-              "duration": 2647000000,
+              "duration": 3081000000,
               "status": "passed"
             },
             "match": {
@@ -154,7 +154,7 @@
             "line": 11,
             "name": "User clicks save Button",
             "result": {
-              "duration": 1397000000,
+              "duration": 1789000000,
               "status": "passed"
             },
             "match": {
@@ -186,7 +186,7 @@
             "line": 5,
             "name": "User is at the login page",
             "result": {
-              "duration": 1998000000,
+              "duration": 2236000000,
               "status": "passed"
             },
             "match": {
@@ -198,7 +198,7 @@
             "line": 6,
             "name": "User enters username and password",
             "result": {
-              "duration": 854000000,
+              "duration": 1122000000,
               "status": "passed"
             },
             "match": {
@@ -210,7 +210,7 @@
             "line": 7,
             "name": "User clicks on login button",
             "result": {
-              "duration": 1953000000,
+              "duration": 2070000000,
               "status": "passed"
             },
             "match": {
@@ -234,7 +234,7 @@
             "line": 9,
             "name": "User clicks EmployeeList option",
             "result": {
-              "duration": 2057000000,
+              "duration": 2211000000,
               "status": "passed"
             },
             "match": {
@@ -246,7 +246,7 @@
             "line": 10,
             "name": "User verify the EmployeeList page",
             "result": {
-              "duration": 57000000,
+              "duration": 60000000,
               "status": "passed"
             },
             "match": {
@@ -258,7 +258,7 @@
             "line": 11,
             "name": "User enters Employee Name,Employee ID",
             "result": {
-              "duration": 2483000000,
+              "duration": 2842000000,
               "status": "passed"
             },
             "match": {
@@ -290,7 +290,7 @@
             "line": 5,
             "name": "User is at the login page",
             "result": {
-              "duration": 1940000000,
+              "duration": 2279000000,
               "status": "passed"
             },
             "match": {
@@ -302,7 +302,7 @@
             "line": 6,
             "name": "User enters username and password",
             "result": {
-              "duration": 840000000,
+              "duration": 1114000000,
               "status": "passed"
             },
             "match": {
@@ -314,7 +314,7 @@
             "line": 7,
             "name": "User clicks on login button",
             "result": {
-              "duration": 1900000000,
+              "duration": 2117000000,
               "status": "passed"
             },
             "match": {
@@ -326,7 +326,7 @@
             "line": 8,
             "name": "User is able to successfully login to the Website",
             "result": {
-              "duration": 39000000,
+              "duration": 65000000,
               "status": "passed"
             },
             "match": {
@@ -338,7 +338,7 @@
             "line": 9,
             "name": "User clicks Admin option",
             "result": {
-              "duration": 1885000000,
+              "duration": 2257000000,
               "status": "passed"
             },
             "match": {
@@ -350,7 +350,7 @@
             "line": 10,
             "name": "User clicks User Management option",
             "result": {
-              "duration": 809000000,
+              "duration": 978000000,
               "status": "passed"
             },
             "match": {
@@ -362,7 +362,7 @@
             "line": 11,
             "name": "User clicks user option",
             "result": {
-              "duration": 791000000,
+              "duration": 975000000,
               "status": "passed"
             },
             "match": {
@@ -374,7 +374,7 @@
             "line": 12,
             "name": "User clicks +Add option",
             "result": {
-              "duration": 1500000000,
+              "duration": 1706000000,
               "status": "passed"
             },
             "match": {
@@ -386,7 +386,7 @@
             "line": 13,
             "name": "User verifies the user Add page",
             "result": {
-              "duration": 49000000,
+              "duration": 89000000,
               "status": "passed"
             },
             "match": {
@@ -398,7 +398,7 @@
             "line": 14,
             "name": "User enters User Role,Employee name,Status,Username,password,confirm password",
             "result": {
-              "duration": 2910000000,
+              "duration": 3962000000,
               "status": "passed"
             },
             "match": {
@@ -430,7 +430,7 @@
             "line": 5,
             "name": "User is at the login page",
             "result": {
-              "duration": 1907000000,
+              "duration": 2312000000,
               "status": "passed"
             },
             "match": {
@@ -442,7 +442,7 @@
             "line": 6,
             "name": "User enters username and password",
             "result": {
-              "duration": 848000000,
+              "duration": 1256000000,
               "status": "passed"
             },
             "match": {
@@ -454,7 +454,7 @@
             "line": 7,
             "name": "User clicks on login button",
             "result": {
-              "duration": 1862000000,
+              "duration": 2306000000,
               "status": "passed"
             },
             "match": {
@@ -466,7 +466,7 @@
             "line": 8,
             "name": "User is able to successfully login to the Website",
             "result": {
-              "duration": 56000000,
+              "duration": 68000000,
               "status": "passed"
             },
             "match": {
@@ -478,7 +478,7 @@
             "line": 9,
             "name": "User clicks Admin option",
             "result": {
-              "duration": 1980000000,
+              "duration": 3633000000,
               "status": "passed"
             },
             "match": {
@@ -490,7 +490,7 @@
             "line": 10,
             "name": "User clicks job option",
             "result": {
-              "duration": 1617000000,
+              "duration": 2376000000,
               "status": "passed"
             },
             "match": {
@@ -502,7 +502,7 @@
             "line": 11,
             "name": "User clicks +Add button",
             "result": {
-              "duration": 1363000000,
+              "duration": 1622000000,
               "status": "passed"
             },
             "match": {
@@ -514,7 +514,7 @@
             "line": 12,
             "name": "User enters Job Title, Job Description, Note",
             "result": {
-              "duration": 3058000000,
+              "duration": 3503000000,
               "status": "passed"
             },
             "match": {
@@ -526,7 +526,7 @@
             "line": 13,
             "name": "User clicks Save button",
             "result": {
-              "duration": 198000000,
+              "duration": 237000000,
               "status": "passed"
             },
             "match": {
@@ -558,7 +558,7 @@
             "line": 5,
             "name": "User is at the login page",
             "result": {
-              "duration": 2815000000,
+              "duration": 2464000000,
               "status": "passed"
             },
             "match": {
@@ -570,7 +570,7 @@
             "line": 6,
             "name": "User enters username and password",
             "result": {
-              "duration": 935000000,
+              "duration": 1286000000,
               "status": "passed"
             },
             "match": {
@@ -582,7 +582,7 @@
             "line": 7,
             "name": "User clicks on login button",
             "result": {
-              "duration": 1840000000,
+              "duration": 2038000000,
               "status": "passed"
             },
             "match": {
@@ -594,7 +594,7 @@
             "line": 8,
             "name": "User is able to successfully login to the Website",
             "result": {
-              "duration": 47000000,
+              "duration": 83000000,
               "status": "passed"
             },
             "match": {
@@ -606,7 +606,7 @@
             "line": 9,
             "name": "User clicks Admin option",
             "result": {
-              "duration": 1983000000,
+              "duration": 2377000000,
               "status": "passed"
             },
             "match": {
@@ -618,7 +618,7 @@
             "line": 10,
             "name": "User clicks job1 option",
             "result": {
-              "duration": 871000000,
+              "duration": 947000000,
               "status": "passed"
             },
             "match": {
@@ -630,7 +630,7 @@
             "line": 11,
             "name": "User clicks Pay Greade option",
             "result": {
-              "duration": 917000000,
+              "duration": 902000000,
               "status": "passed"
             },
             "match": {
@@ -642,7 +642,7 @@
             "line": 12,
             "name": "User clicks +Add button from Pay Greade",
             "result": {
-              "duration": 1286000000,
+              "duration": 1569000000,
               "status": "passed"
             },
             "match": {
@@ -654,7 +654,7 @@
             "line": 13,
             "name": "User enters the Grade",
             "result": {
-              "duration": 1400000000,
+              "duration": 1673000000,
               "status": "passed"
             },
             "match": {
@@ -666,7 +666,7 @@
             "line": 14,
             "name": "User clicks on save button",
             "result": {
-              "duration": 164000000,
+              "duration": 277000000,
               "status": "passed"
             },
             "match": {
@@ -698,7 +698,7 @@
             "line": 5,
             "name": "User is at the login page",
             "result": {
-              "duration": 2004000000,
+              "duration": 2362000000,
               "status": "passed"
             },
             "match": {
@@ -710,7 +710,7 @@
             "line": 6,
             "name": "User enters username and password",
             "result": {
-              "duration": 1068000000,
+              "duration": 1246000000,
               "status": "passed"
             },
             "match": {
@@ -722,7 +722,7 @@
             "line": 7,
             "name": "User clicks on login button",
             "result": {
-              "duration": 2360000000,
+              "duration": 2526000000,
               "status": "passed"
             },
             "match": {
@@ -734,7 +734,7 @@
             "line": 8,
             "name": "User is able to successfully login to the Website",
             "result": {
-              "duration": 111000000,
+              "duration": 85000000,
               "status": "passed"
             },
             "match": {
@@ -746,7 +746,7 @@
             "line": 9,
             "name": "User clicks Admin option",
             "result": {
-              "duration": 2610000000,
+              "duration": 3126000000,
               "status": "passed"
             },
             "match": {
@@ -758,7 +758,7 @@
             "line": 10,
             "name": "User clicks job1 option",
             "result": {
-              "duration": 1052000000,
+              "duration": 1129000000,
               "status": "passed"
             },
             "match": {
@@ -770,7 +770,7 @@
             "line": 11,
             "name": "User clicks Work Shifts option",
             "result": {
-              "duration": 1318000000,
+              "duration": 1074000000,
               "status": "passed"
             },
             "match": {
@@ -782,7 +782,7 @@
             "line": 12,
             "name": "User clicks checkbox to clear the previous shift timing",
             "result": {
-              "duration": 1371000000,
+              "duration": 1436000000,
               "status": "passed"
             },
             "match": {
@@ -794,7 +794,7 @@
             "line": 13,
             "name": "User clicks delete button",
             "result": {
-              "duration": 272000000,
+              "duration": 231000000,
               "status": "passed"
             },
             "match": {
@@ -806,7 +806,7 @@
             "line": 14,
             "name": "User clicks confirm delete button",
             "result": {
-              "duration": 293000000,
+              "duration": 261000000,
               "status": "passed"
             },
             "match": {
@@ -818,7 +818,7 @@
             "line": 15,
             "name": "User clicks add button",
             "result": {
-              "duration": 889000000,
+              "duration": 838000000,
               "status": "passed"
             },
             "match": {
@@ -830,7 +830,7 @@
             "line": 16,
             "name": "User clicks Shift Name, Assigned Employee",
             "result": {
-              "duration": 3512000000,
+              "duration": 2160000000,
               "status": "passed"
             },
             "match": {
@@ -842,7 +842,7 @@
             "line": 17,
             "name": "User clicks Save in work shift button",
             "result": {
-              "duration": 528000000,
+              "duration": 290000000,
               "status": "passed"
             },
             "match": {
@@ -858,5 +858,321 @@
     "line": 1,
     "name": "TC_007_WorkingShift",
     "uri": "cypress\\e2e\\Features\\TC_007_WorkingShift.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "tc_008_adding-location;adding-location-in-orangehrm-webpage",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Adding Location in OrangeHRM webpage",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is at the login page",
+            "result": {
+              "duration": 2371000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enters username and password",
+            "result": {
+              "duration": 1131000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on login button",
+            "result": {
+              "duration": 2127000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User is able to successfully login to the Website",
+            "result": {
+              "duration": 74000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "User clicks Admin option",
+            "result": {
+              "duration": 2812000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 10,
+            "name": "User clicks Organization option",
+            "result": {
+              "duration": 1303000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "User clicks Location option",
+            "result": {
+              "duration": 1665000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 12,
+            "name": "User clicks check box to clear previous details",
+            "result": {
+              "duration": 1058000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 13,
+            "name": "User clicks delete1 button",
+            "result": {
+              "duration": 510000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 14,
+            "name": "User clicks Yes delete button",
+            "result": {
+              "duration": 407000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 15,
+            "name": "User clicks Add butting in Location",
+            "result": {
+              "duration": 1106000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 16,
+            "name": "User enters Name, City,Zip Code,Phone,Address,State,Country,Fax, Notes",
+            "result": {
+              "duration": 6237000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 17,
+            "name": "User clicks save button iN Location",
+            "result": {
+              "duration": 336000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "tc_008_adding-location",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "TC_008_Adding Location",
+    "uri": "cypress\\e2e\\Features\\TC_008_Locations.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "tc_009_checking-the-structure;checking-the-structure-in-orangehrm-webpage",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Checking the Structure in OrangeHRM webpage",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is at the login page",
+            "result": {
+              "duration": 2355000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "User enters username and password",
+            "result": {
+              "duration": 1309000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "User clicks on login button",
+            "result": {
+              "duration": 2568000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User is able to successfully login to the Website",
+            "result": {
+              "duration": 64000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "User clicks Admin option",
+            "result": {
+              "duration": 2629000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 10,
+            "name": "User clicks Organization option",
+            "result": {
+              "duration": 1159000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "User clicks Structure option",
+            "result": {
+              "duration": 1228000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 12,
+            "name": "User clicks DwonArrow nearby Engineer option",
+            "result": {
+              "duration": 1726000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 13,
+            "name": "User clicks DwonArrow nearby Sales \u0026 Marketing option",
+            "result": {
+              "duration": 266000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 14,
+            "name": "User clicks DwonArrow nearby Client Services option",
+            "result": {
+              "duration": 300000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "tc_009_checking-the-structure",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "TC_009_Checking the Structure",
+    "uri": "cypress\\e2e\\Features\\TC_009_Structure.feature"
   }
 ]
