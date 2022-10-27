@@ -48,7 +48,7 @@
     "test": "cypress run --config pageLoadTimeout=10000 && npx cypress run --browser chrome && npx cypress run --browser edge",
     "open": "cypress open",
     "cucumber": "node cucumber-html-reports.js",
-    "cy:run": "cypress run -browser chrome --headed && npm run cmd && npm run cucumber",
+    "cy:run": "cypress run --browser chrome && npm run cmd && npm run cucumber",
     "cy:parallel": "cypress-parallel -s cy:run -t 2 -d .\\cypress\\e2e ",
     "cmd": "copy C:\\Users\\Public\\GitHub\\Test\\OrangeHRM\\cucumber-report.json C:\\Users\\Public\\GitHub\\Test\\OrangeHRM\\cypress\\cucumber-json"
   },

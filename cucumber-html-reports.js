@@ -5,7 +5,7 @@ report.generate({
     "metadata": {
         "browser": {
           "name": "chrome",
-          "version": "81"
+          "version": "105"
         },
         "device": "Local test machine",
         "platform": {

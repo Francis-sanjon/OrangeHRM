@@ -18,8 +18,9 @@ And('User clicks on login button', () => {
 Then('User is able to successfully login to the Website', () => {
     cy.url().should('include', 'viewEmployeeList')
 })
+/*
 Then('User unable to login to the Website', () => {
     cy.url().should('eq', 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-})
+})*/
 
 
